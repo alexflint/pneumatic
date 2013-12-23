@@ -1,7 +1,11 @@
-*.py[cod]
+###
+# Emacs
+*~
 
-# C extensions
-*.so
+###
+# Python
+
+*.py[cod]
 
 # Packages
 *.egg
@@ -34,3 +38,16 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+###
+# C++
+*.o
+*.so
+*.dSYM
+*.s
+*.bc
+*.S
+
+###
+# Specific executables
+kaleidoscope
